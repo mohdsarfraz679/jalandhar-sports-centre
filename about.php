@@ -66,7 +66,25 @@
       
   
 </div>
-  </section>
+</section>
+<section id="about">
+<div class="paragraph"><p> This abundance level of caoching and fitness is leading to a
+        very bright future of our players with an ease for achivement
+        in AITA tournaments, Cs, SS tournaments ets. Every sunday also
+        also known as funday friendly matches are organised for all the
+        players whether are organised for all the players whether it is of 
+        tennis, football, volleyball, cricket etc. As we know this pendemic
+        have created a sense of fear in our minds to get oueselves out
+        but here in our academy special attension is given by providing
+        numerous batches of our cources thereby dividing the number of players.
+        As we know this pendemic have created a sense of fear in our minds to get oueselves out
+        but here in our academy special attension is given by providing
+        numerous batches of our cources thereby dividing the number of players.</p>
+      
+      
+  
+</div>
+</section>
   
   <!-- Footer -->
   <section id="footer">

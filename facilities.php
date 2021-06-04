@@ -71,6 +71,17 @@
         
       </div>
       </section>
+      <section id="about1">
+        <div class="paragraph"><p>We are providing best environment to our players with best and experienced
+        facilities. Along with training our academy focus on our Player's overall health
+        for that we are providing fitness training classes and physcology classes.
+        We are having largest campus with 5 different courts , running track and fitness
+        centre. Soon we are going to start 5 indoor badminton courts , a syntheic hard
+        court, gym and recovery pool.</p>
+        
+        
+      </div>
+      </section>
   <!-- Footer -->
   <section id="footer">
     <div class="footer container">

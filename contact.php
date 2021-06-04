@@ -48,7 +48,7 @@
       <label for="subject">Message</label>
       <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
   
-      <input type="submit" value="Submit" onload="window.alert('Thank you for contacting us. We will get back to you soon')"> 
+      <input type="submit" value="Submit" onclick="window.alert('Thank you for contacting us. We will get back to you soon')"> 
   
     </form>
   </div>

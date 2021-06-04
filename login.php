@@ -27,7 +27,6 @@
             <li><a href="message.php" >Updates</a></li>
             <li><a href="gallary.php" >Gallery</a></li>
             <li><a href="contact.php">Contact Us</a></li>
-            <li><a href="login.php">Login</a></li>
           </ul>
         </div>
       </div>
@@ -45,7 +44,7 @@
             <label for="fname"><i class="fa fa-user"></i> Username</label>
             <input type="text" id="fname" name="username" value="<?php echo $username; ?>" placeholder="Enter username">
 			<label for="password"><i class="fa fa-lock"></i> Password</label>
-            <input type="text" id="password" name="password" placeholder="Enter password">
+            <input type="password" id="password" name="password" placeholder="Enter password">
 
 			<button type="submit" class="btn" name="login_user">Login</button>
 			</div>
@@ -58,5 +57,7 @@
   </div>
 </div>
 </section>
+  <script src="./app.js"></script>
+
 </body>
 </html>

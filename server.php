@@ -20,7 +20,7 @@ $otherinfo = "";
 $errors = array(); 
 
 // connect to the database
-$db = mysqli_connect('localhost', 'root', '', 'register') or die(mysqli_error($db));
+$db = mysqli_connect('localhost', 'root', '', 'register');
 session_start();
 // REGISTER USER
 if (isset($_POST['reg_user'])) {
@@ -40,6 +40,7 @@ if (isset($_POST['reg_user'])) {
   $gender = mysqli_real_escape_string($db, $_POST['gender']);
   $academicyear = mysqli_real_escape_string($db, $_POST['academic_year']);
   $aadhar = mysqli_real_escape_string($db, $_POST['aadhar']);
+  $otherinfo = mysqli_real_escape_string($db, $_POST['otherinfo']);
 
   // form validation: ensure that the form is correctly filled ...
   // by adding (array_push()) corresponding error unto $errors array
@@ -64,7 +65,7 @@ if (isset($_POST['reg_user'])) {
   // first check the database to make sure 
   // a user does not already exist with the same username and/or email
   $user_check_query = "SELECT * FROM user WHERE username='$username' OR email='$email' LIMIT 1";
-  $result = mysqli_query($db, $user_check_query) or die(mysqli_error($db));
+  $result = mysqli_query($db, $user_check_query);
   $user = mysqli_fetch_assoc($result);
   
   if ($user) { // if user exists
@@ -81,9 +82,9 @@ if (isset($_POST['reg_user'])) {
   if (count($errors) == 0) {
   	$password = md5($password_1);//encrypt the password before saving in the database
 
-  	$query = "INSERT INTO user (username, email, password, address, city, state, zip, schoolname, dob, mobile, aadhar, age, gender, academic_year) 
-  			  VALUES('$username', '$email', '$password', '$address', '$city', '$state', '$zip', '$school_name', '$dob', '$mobile', '$aadhar', '$age', '$gender', '$academicyear')";
-  	mysqli_query($db, $query) or die(mysqli_error($db));
+  	$query = "INSERT INTO user (username, email, password, address, city, state, zip, schoolname, dob, mobile, aadhar, age, gender, academic_year, otherinfo) 
+  			  VALUES('$username', '$email', '$password', '$address', '$city', '$state', '$zip', '$school_name', '$dob', '$mobile', '$aadhar', '$age', '$gender', '$academicyear', '$otherinfo')";
+  	mysqli_query($db, $query);
   	$_SESSION['username'] = $username;
     $_SESSION['email'] = $email;
   	$_SESSION['success'] = "You are now logged in";

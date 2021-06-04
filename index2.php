@@ -137,7 +137,7 @@
           <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/phone.png"/></div>
           <div class="contact-info">
             <h1>Phone</h1>
-            <h2>+91 9256457022</h2>
+            <h2>+91 9415819322</h2>
             
           </div>
         </div>

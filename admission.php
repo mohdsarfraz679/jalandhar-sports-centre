@@ -71,9 +71,11 @@
             <input type="text" id="expmonth" name="mobile" value="<?php echo $mobile; ?>" placeholder="Enter mobile">
             <label for="expyear">Aadhar Number</label>
             <input type="text" id="expyear" name="aadhar" value="<?php echo $aadhar; ?>" placeholder="Enter adhaar number">
+            <label for="expyear">Other Info</label>
+            <input type="text" id="expyear" name="otherinfo" value="<?php echo $otherinfo; ?>" placeholder="Say someting about yourself....">
         </div>
 
-        <button type="submit" value="Proceed and Pay" name="reg_user" class="btn">Proceed and pay</button>
+        <button type="submit" value="Register" name="reg_user" class="btn">Register</button>
 
         <p style="text-align:center">
   		Already a member? <a href="login.php">Sign in</a>

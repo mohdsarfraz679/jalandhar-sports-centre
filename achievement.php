@@ -57,6 +57,54 @@
      
       </div>
       </section>
+      <section id="about">
+<div class="paragraph"><p> This abundance level of caoching and fitness is leading to a
+        very bright future of our players with an ease for achivement
+        in AITA tournaments, Cs, SS tournaments ets. Every sunday also
+        also known as funday friendly matches are organised for all the
+        players whether are organised for all the players whether it is of 
+        tennis, football, volleyball, cricket etc. As we know this pendemic
+        have created a sense of fear in our minds to get oueselves out
+        but here in our academy special attension is given by providing
+        numerous batches of our cources thereby dividing the number of players.
+        As we know this pendemic have created a sense of fear in our minds to get oueselves out
+        but here in our academy special attension is given by providing
+        numerous batches of our cources thereby dividing the number of players.</p>
+      
+      
+  
+</div>
+</section>
+<section id="about">
+  
+      
+      <div class="paragraph">
+        <p>Our academy having my achievements in form of our players success.
+      We have 25+ our students playing national level tournanments and
+      Player with ranks under top 20 and top 50 under 14 and under 12. Our
+      players had also titled with AITA tournaments, Cs, SS tournaments trouphies.
+      We are leading with the Best Sports Academy award in punjab by pr organisaton
+      and punjab government also awared us with top 10 Sports academy in india 
+      with 5th rank have created a sense of fear in our minds to get oueselves out
+      but here in our academy special attension is given by providing numerous
+       batches of our cources thereby dividing the number of players.
+     This abundance level of caoching and fitness is leading to a
+        very bright future of our players with an ease for achivement
+        in AITA tournaments, Cs, SS tournaments ets. Every sunday also
+        also known as funday friendly matches are organised for all the
+        players whether are organised for all the players whether it is of 
+        tennis, football, volleyball, cricket etc. As we know this pendemic
+        have created a sense of fear in our minds to get oueselves out
+        but here in our academy special attension is given by providing
+        numerous batches of our cources thereby dividing the number of players.
+        As we know this pendemic have created a sense of fear in our minds to get oueselves out
+        but here in our academy special attension is given by providing
+        numerous batches of our cources thereby dividing the number of players.</p>
+      
+      
+  
+</div>
+</section>
   
   <!-- Footer -->
   <section id="footer">

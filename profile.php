@@ -113,7 +113,7 @@ session_start();
               </div>
             </div>
             <div>
-              <!-- <a class="btn" href="updatepro.php">Edit Profile</a> -->
+              <a class="btn" href="login.php">Logout</a>
               <button class="btn" onclick="window.print()">Print</button>
             </div>
           </div>
